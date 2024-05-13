@@ -1,0 +1,22 @@
+ root {
+    --cinza-principal: #bdbcbcde;
+    --rosa-secundario: #FF69B4;
+    --botão-lilas: #E1A9E9;
+    --cor-de-fundo: #00030C;
+ }
+
+ body {
+    background-color: var(--cor-de-fundo);
+    color: var(--cinza-principal);
+ }
+ 
+ ° {
+    margin:0;
+    padding:0;
+ }
+
+ °principal { 
+background-image: url();
+background-repeat: no-repeat;
+background-size: contain;
+ }
