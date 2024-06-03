@@ -13,7 +13,7 @@
  ° {
    margin:0;
    padding:0;
- }
+ };
 
 .principal { 
    background-image: url("WhatsApp\ Image\ 2024-05-14\ at\ 23.46.01.jpeg");
@@ -41,4 +41,70 @@
    border: 2px solid var(--cinza-principal)
 }
  
-.container
+.container_aivso {
+  font-size: 12px;
+  color:var(--rosa-secundario);
+} ;
+
+.container_titulo {
+  font-size: 28px;
+  font-weight: 700;
+}text-decoration: none;
+color:var(--cinza-principal);
+margin-left: 1em;
+
+.container_imagem {
+margin: 1em 0 2em 0;
+}
+
+.container_caixa {
+width: 80;
+}
+
+.secundario {
+  align-items: center;text-decoration: none;
+  color:var(--cinza-principal);
+  margin-left: 1em;
+
+  margin: 5em 0;
+}
+
+.dispoisitivos {
+  text-align: center;
+}
+
+.dispoisitivos_titulo {
+  font-size: 48px;
+  color: var(--cinza-principal);
+}
+
+.lista_item {
+  font-size: 32px;
+  color:ar(--cinza-principal);
+  margin-top: 1em;
+}
+
+.lista_link a{
+  text-decoration: none;
+  color: var(--cinza-principal);
+  margin-top: 1em;
+}
+
+.rodape_texto {
+  margin: 1em 0;
+  color: var(--rosa-secundario);
+  font-size: 14px;
+}
+
+.lista_link a:hover {
+  color: var(--botão-lilas);
+}
+
+.lista_link a:active {
+  color: #E1A9E9;
+}
+
+.container_botao:hover {
+  background-color: var(--botão-lilas);
+  color:var(--cor-de-fundo)
+}
