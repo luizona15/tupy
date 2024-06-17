@@ -1,13 +1,18 @@
 :root{
-   --cinza-principal: #5c505ede;
-   --rosa-secundario: #FF69B4;
-   --botão-lilas: #E1A9E9;
-   --cor-de-fundo: #00030C;
+   --cinza-principal: #000000;
+   --rosa-secundario: #fd1589;
+   --botão-lilas: #f096d2;
+   --cor-de-fundo: #F2E3E6; 
+   --fonte-principal:'inter';
+   --botao-azul-efeito:var(--rosa-secundario)
  }
 
  body {
    background-color: var(--cor-de-fundo);
    color: var(--cinza-principal);
+   font-family: var(--fonte-principal);
+   font-size: 16px;
+   font-weight: 400;
  }
  
  ° {
@@ -16,9 +21,11 @@
  };
 
 .principal { 
-   background-image: url("WhatsApp\ Image\ 2024-05-14\ at\ 23.46.01.jpeg");
+   background-image: url("WhatsApp\ Image\ 2024-06-17\ at\ 09.13.14.jpeg");
    background-repeat: no-repeat;
    background-size: contain;
+   align-items: center;
+   text-align: center;
  }
 
  .container {
@@ -34,6 +41,7 @@
    color: var(--cinza-principal);
    display: block;
    text-decoration: none;
+   margin-bottom: 1em;
 }
 
 .botao_secundario {
@@ -49,6 +57,8 @@
 .container_titulo {
   font-size: 28px;
   font-weight: 700;
+
+
 }text-decoration: none;
 color:var(--cinza-principal);
 margin-left: 1em;
@@ -58,6 +68,10 @@ margin: 1em 0 2em 0;
 }
 
 .container_caixa {
+width: 80;
+}
+
+.secundario_imagem{
 width: 80;
 }
 
